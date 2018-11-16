@@ -40,6 +40,8 @@
     margin-left: 5px;
     margin-right: 25px;
 }
+
+
 /*
     banner css
 */
@@ -63,6 +65,239 @@
 
 .banner h1 span {
     color: #f66c27;
+}
+
+/*
+    Div General Info css
+ */
+
+.general-info {
+    box-sizing: border-box;
+    width: 100%;
+    height: 765px;
+    background: url("../images/info_bg.jpg") top center;
+}
+
+.general-info .row {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.general-info .info-img {
+    float: left;
+}
+
+.general-info .info-img .img1 {
+    position: relative;
+    margin-top: 150px;
+    margin-right: 10px;
+    width: 638px;
+    box-shadow: 30px 30px 42px 0px rgba(0,0,0,0.10);
+}
+
+.general-info .info-img .img2 {
+    position: absolute;
+    bottom: -63px;
+    right: -30px;
+    box-shadow: 30px 30px 42px 0px rgba(0,0,0,0.10);
+}
+
+
+.general-info .info {
+    float: left;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.general-info .info h2 {
+    margin-top: 200px;
+    font-family: Roboto;
+    font-size: 45px;
+    max-width: 300px;
+}
+
+.general-info .info nav {
+    width: 100%;
+    height: 45px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.general-info .info ul {
+    list-style: none;
+    height: 100%;
+    padding: 0;
+}
+
+.general-info .info ul li {
+    display: inline-block;
+    float: left;
+    margin-right: 65px;
+}
+
+.general-info .info ul a {
+    color: #f48146;
+    font-size: 25px;
+    font-family: Poppins;
+}
+
+.general-info .info p {
+    font-size: 15px;
+    font-family: Poppins;
+}
+
+.general-info .info button {
+    margin-top: 50px;
+    background: #f48146;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+/*
+    Helper css
+ */
+
+.helper {
+    box-sizing: border-box;
+    height: 600px;
+}
+
+.helper .col-md-4 {
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.helper .design-content {
+    margin-top: 70px;
+    padding: 85px 30px 50px 30px;
+    background: #eeeded;
+}
+
+.helper .design-content:hover {
+    background: white;
+    box-shadow: 15px 15px 42px 11px rgba(0,0,0,0.10);
+}
+.helper .design-content:hover i {
+    color: #ff8344;
+}
+.helper .row {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.helper .row h1 {
+    font-size: 45px;
+    font-family: Roboto;
+    padding-left: 27px;
+}
+
+.helper .row .icon {
+    padding: 0 135px;
+}
+.helper .row i {
+    font-size: 50px;
+}
+
+.helper .row h4 {
+    font-size: 25px;
+    font-family: Roboto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.helper .row p {
+    text-align: center;
+    font-size: 15px;
+    font-family: Poppins;
+}
+
+
+/*
+    Map css
+ */
+
+.map .row {
+    width: 880px;
+    margin: 0 auto;
+}
+
+.map .row h1 {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 45px;
+}
+
+.map img {
+    width: 1519.2px;
+}
+
+/*
+    Sent email css
+ */
+
+.sent-email {
+    background: url("../images/Subscribe.jpg") top center;
+    height: 360px;
+}
+
+.sent-email .row {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.sent-email .row h3 {
+    margin-top: 90px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: Roboto;
+    color: white;
+}
+
+.sent-email .row .form {
+    margin: 60px 315px;
+    width: 100%;
+}
+
+.sent-email .row .form .form-input {
+    display: inline-block;
+    width: 490px;
+}
+
+.sent-email .row .form .form-input input{
+    width: 100%;
+    border: none;
+    border-radius: 32px;
+    padding-top: 17px;
+    padding-left: 25px;
+    padding-bottom: 17px;
+    font-size: 18px;
+    font-family: Poppins;
+}
+
+.sent-email .row .form .form-input input:focus {
+    outline: none;
+}
+
+.sent-email .row .form button {
+    display: inline-block;
+    margin-left: 10px;
+    border: none;
+    border-radius: 32px;
+    padding: 17px 45px;
+    font-size: 18px;
+    font-family: Poppins;
+    background: #f48146;
+    color: white;
+    box-shadow: 0px 0px 28px -1px rgba(0,0,0,0.60);
 }
 
 /*
@@ -161,8 +396,6 @@
     font-family: Poppins;
 }
 
-
-
 .footer .contact-info p span{
     color: #f48146;
 }
@@ -190,3 +423,65 @@
     background: #f48146;
 }
 
+/*
+    Feedback css
+ */
+
+.feedback {
+    background: url("../images/feedback_bg.jpg") top center;
+}
+
+.feedback .row {
+    width: 830px;
+    margin: 0 auto;
+}
+
+.feedback .row h2 {
+    width: 100%;
+    margin-top: 95px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 45px;
+}
+
+.feedback img {
+    margin-top: 40px;
+    margin-left: 700px ;
+    margin-bottom: 20px;
+}
+
+.feedback .row p {
+    text-align: center;
+    font-size: 15px;
+    font-family: Poppins;
+}
+
+.feedback .author span {
+    display: block;
+    width: 100%;
+    color: #faa47d;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+.feedback .author p {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+.feedback .row .icon {
+    margin: 0 auto;
+    color: #dbdada;
+}
+
+.feedback .row .icon i {
+    margin: 10px;
+}
+
+.feedback .row .icon i.middle {
+    color: #fc7029;
+}
