@@ -1,0 +1,31 @@
+/*
+    header css
+*/
+
+header {
+
+}
+
+/*
+    banner css
+*/
+
+.banner {
+    height: 935px;
+    width: 100%;
+    background: url("../images/banner.jpg") top center;
+    display: table;
+}
+
+.banner h1 {
+    font-family: "Roboto Black";
+    font-size: 83px;
+    color: black;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner h1 span {
+    color: #f66c27;
+}
