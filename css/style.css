@@ -300,6 +300,10 @@
     box-shadow: 0px 0px 28px -1px rgba(0,0,0,0.60);
 }
 
+.sent-email .row .form button:focus {
+    outline: none;
+}
+
 /*
     footer css
  */
