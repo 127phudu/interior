@@ -305,6 +305,70 @@
 }
 
 /*
+    Feedback css
+ */
+
+.feedback {
+    background: url("../images/feedback_bg.jpg") top center;
+}
+
+.feedback .row {
+    width: 830px;
+    margin: 0 auto;
+}
+
+.feedback .row h2 {
+    width: 100%;
+    margin-top: 95px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 45px;
+}
+
+.feedback img {
+    margin-top: 40px;
+    margin-left: 700px ;
+    margin-bottom: 20px;
+}
+
+.feedback .row p {
+    text-align: center;
+    font-size: 15px;
+    font-family: Poppins;
+}
+
+.feedback .author span {
+    display: block;
+    width: 100%;
+    color: #faa47d;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+.feedback .author p {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+
+.feedback .row .icon {
+    margin: 0 auto;
+    color: #dbdada;
+}
+
+.feedback .row .icon i {
+    margin: 10px;
+}
+
+.feedback .row .icon i.middle {
+    color: #fc7029;
+}
+
+/*
     footer css
  */
 
@@ -428,65 +492,66 @@
 }
 
 /*
-    Feedback css
+    Projects css
  */
 
-.feedback {
-    background: url("../images/feedback_bg.jpg") top center;
+.projects {
+    box-sizing: border-box;
 }
 
-.feedback .row {
-    width: 830px;
-    margin: 0 auto;
+.projects .row{
+    width: 1300px;
+    height: 680px;
+    margin: 155px auto 140px;
+    position: relative;
 }
 
-.feedback .row h2 {
-    width: 100%;
-    margin-top: 95px;
-    text-align: center;
-    font-family: Roboto;
+.projects .row h1 {
     font-size: 45px;
+    font-family: Roboto;
+    margin-bottom: 40px;
 }
 
-.feedback img {
-    margin-top: 40px;
-    margin-left: 700px ;
-    margin-bottom: 20px;
-}
-
-.feedback .row p {
-    text-align: center;
+.projects .row p {
+    max-width: 330px;
     font-size: 15px;
     font-family: Poppins;
+    line-height: 25px;
 }
 
-.feedback .author span {
-    display: block;
-    width: 100%;
-    color: #faa47d;
-    text-align: center;
-    font-family: Poppins;
+.projects .row p span {
+    color: #f48146;
+}
+
+.projects .row button {
+    display: inline-block;
+    margin-top: 24px;
+    border: none;
+    border-radius: 32px;
+    padding: 16px 40px;
     font-size: 18px;
-}
-
-.feedback .author p {
-    display: block;
-    width: 100%;
-    text-align: center;
     font-family: Poppins;
-    font-size: 18px;
+    background: #f48146;
+    color: white;
+    box-shadow: 2px 2px 28px 0px rgba(0,0,0,0.20);
 }
 
-
-.feedback .row .icon {
-    margin: 0 auto;
-    color: #dbdada;
+.projects .row button:focus {
+    outline: none;
 }
 
-.feedback .row .icon i {
-    margin: 10px;
+.projects .row img {
+    border: 10px solid white;
+    box-shadow: 2px 2px 28px 0px rgba(0,0,0,0.07);
 }
 
-.feedback .row .icon i.middle {
-    color: #fc7029;
+.projects .row .col-md-4 > img {
+    position: absolute;
+    bottom: 0;
+    left: 0 ;
+}
+
+.projects .row .col-md-4 .projects-img {
+    display: block;
+    margin-bottom: 30px;
 }
