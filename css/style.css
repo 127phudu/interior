@@ -629,7 +629,7 @@
 }
 
 .social .row .social-content i:hover {
-    background: #f48146;
+    background: rgba(255, 138, 70, 0.86);
 }
 
 .social .row .social-content .fa-twitter {
