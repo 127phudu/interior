@@ -628,6 +628,10 @@
     margin-bottom: 30px;
 }
 
+.social .row .social-content i:hover {
+    background: #f48146;
+}
+
 .social .row .social-content .fa-twitter {
     color: #82f4d3;
     background: white;
